@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/PagePrincipale.css">
+    <meta charset="utf-8">
+</head>
+
+<!--OPTION ADMINISTRATEUR-->
+<body>
+<header>
+    <div class="background">
+        <h1>Gérer les cheifous</h1>
+    </div>
+</header>
+
+<!--    Menu d'ajout de membres-->
+<div class="AjoutMembres">
+    <h2>Ajouter un membre</h2>
+    <form action="/TP2-Web/index.php/GererUtilisateurs/AjouterUtilisateur" method="post">
+        <input class="textbox" type="text" name="txtUsernameAdd" placeholder="Nom du membre">
+
+        <select class="combobox" name = 'cmbTypeAjout'>
+            <option value="0">Administrateur</option>
+            <option value="1">Parieur</option>
+        </select>
+        <input class="textbox"type="password" name="txtPasswordAdd" placeholder="Mot de passe"><br><br>
+
+        <input class="button" type="submit" name="btnAddMember" value="Ajouter un membre">
+    </form>
+</div>
+
+<!--    Menu de modification de membres-->
+<div class="ModifMembres">
+    <h2>Modifier un membre</h2>
+
+    <form action="/TP2-Web/index.php/GererUtilisateurs/ModifierUtilisateur" method="post">
+        <select class = "combobox" name = 'cmbUtilisateurModif'>
+            __Utilisateurs__
+        </select>
+        <input id="TextBoxNameModif" class="textbox" type="text" name="txtUsernameModif" placeholder="Nom du membre">
+        <select class="combobox" name = 'cmbTypeModif'>
+            <option value="0">Administrateur</option>
+            <option value="1">Parieur</option>
+        </select>
+        <input id="TextBoxPassModif" class="textbox"type="password" name="txtPasswordModif" placeholder="Mot de passe"><br><br>
+        <input class="button" type="submit" name="btnModifMember" value="Modifier un membre">
+    </form>
+</div>
+
+
+<!--    Menu de suppression de membres-->
+<div class="SupMembres">
+    <h2>Supprimer un membre</h2>
+
+    <form action="/TP2-Web/index.php/GererUtilisateurs/SupprimerUtilisateur" method="post">
+        <select class="combobox" id = "cmbUtilisateurSupp" name = 'cmbUtilisateurSupp'>
+            __Utilisateurs__
+        </select>
+        <input class="button2" type="submit" name="btnSupMember" value="Supprimer un membre">
+    </form>
+</div>
+</body>
+</html>

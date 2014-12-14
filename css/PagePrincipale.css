@@ -1,0 +1,377 @@
+body{
+    background-image: url("img/background2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 28pt;
+    margin-left : 35px;
+    text-shadow: -5px 5px 5px beige;
+    color: #222;
+    font-style : oblique;
+    font-family: cursive;
+    margin:0;
+    padding:0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    Width : 350px;
+}
+
+h2{
+    text-shadow: -2px 2px 3px beige;
+    color: #222;
+    font-style : oblique;
+    font-family: cursive;
+    margin-bottom: -15px;
+    margin-left : 45px;
+}
+
+.combobox{
+    background: whitesmoke;
+    color: black;
+    width: 250px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 #ccc inset;
+    text-align : center;
+    Margin-left :30px;
+    Margin-Top : 30px;
+}
+
+.combobox2 {
+    background: whitesmoke;
+    position: absolute;
+    color: black;
+    width: 180px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 #ccc inset;
+    text-align: center;
+    margin-top: -56px;
+    margin-left: 17%;
+}
+
+
+.PageSondage{
+    Margin-top : 60px;
+    margin-left : 350px;
+}
+
+.AfficherQuestion{
+    Width : 50%;
+    Margin-left : 350px;
+    border:1px solid black ;
+    background: rgba(180, 180, 180, .73);
+    Margin-top : 80px;
+    Position : static;
+}
+.DistancerQuestions{
+    Margin-left :25px;
+}
+
+.background {
+    background: rgba(255, 255, 255, .5);
+    border:1px solid black;
+}
+
+.Menu{
+    background: rgba(255, 255, 255, .5);
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right : auto;
+    width : 1000px;
+    border:1px solid black;
+
+}
+
+.footer{
+    color: #222;
+    bottom : 10px;
+    width : 98.9%;
+    padding-top : 410px;
+}
+
+.button {
+    border-top: 1px solid #ffffff;
+    background: #2b4252;
+    background: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#2b4252));
+    background: -webkit-linear-gradient(top, #080808, #2b4252);
+    background: -moz-linear-gradient(top, #080808, #2b4252);
+    background: -ms-linear-gradient(top, #080808, #2b4252);
+    background: -o-linear-gradient(top, #080808, #2b4252);
+    padding: 10px 65px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(150,200,1400,0.6) 0 1px 0;
+    color: #c9d3d6;
+    font-size: 15px;
+    font-family: inherit, serif;
+    text-decoration: none;
+    margin-top : 6px;
+    margin-left: 25px;
+    margin-bottom : 7px;
+}
+.button:hover {
+    border-top-color: #151c21;
+    background: #151c21;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: #164869;
+    background: #164869;
+}
+.button2 {
+    border-top: 1px solid #ffffff;
+    background: #2b4252;
+    background: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#2b4252));
+    background: -webkit-linear-gradient(top, #080808, #2b4252);
+    background: -moz-linear-gradient(top, #080808, #2b4252);
+    background: -ms-linear-gradient(top, #080808, #2b4252);
+    background: -o-linear-gradient(top, #080808, #2b4252);
+    padding: 10px 58px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(150,200,1400,0.6) 0 1px 0;
+    color: #c9d3d6;
+    font-size: 15px;
+    font-family: inherit, serif;
+    text-decoration: none;
+    margin-top : 6px;
+    margin-left: 30px;
+    margin-bottom : 7px;
+}
+.button2:hover {
+    border-top-color: #151c21;
+    background: #151c21;
+    color: #ccc;
+}
+.button2:active {
+    border-top-color: #164869;
+    background: #164869;
+}
+.button3{
+    border-top: 1px solid #ffffff;
+    background: #2b4252;
+    background: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#2b4252));
+    background: -webkit-linear-gradient(top, #080808, #2b4252);
+    background: -moz-linear-gradient(top, #080808, #2b4252);
+    background: -ms-linear-gradient(top, #080808, #2b4252);
+    background: -o-linear-gradient(top, #080808, #2b4252);
+    padding: 10px 10px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(150,200,1400,0.6) 0 1px 0;
+    color: #c9d3d6;
+    font-size: 15px;
+    font-family: inherit, serif;
+    text-decoration: none;
+    margin-bottom : 7px;
+}
+.button3:hover {
+    border-top-color: #151c21;
+    background: #151c21;
+    color: #ccc;
+}
+.button3:active {
+    border-top-color: #164869;
+    background: #164869;
+}
+
+.buttonmise {
+    border-top: 1px solid #ffffff;
+    background: #2b4252;
+    background: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#2b4252));
+    background: -webkit-linear-gradient(top, #080808, #2b4252);
+    background: -moz-linear-gradient(top, #080808, #2b4252);
+    background: -ms-linear-gradient(top, #080808, #2b4252);
+    background: -o-linear-gradient(top, #080808, #2b4252);
+    padding: 10px 65px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(150,200,1400,0.6) 0 1px 0;
+    color: #c9d3d6;
+    font-size: 15px;
+    font-family: inherit, serif;
+    text-decoration: none;
+    margin-top : 6px;
+    margin-bottom : 7px;
+}
+.buttonmise:hover {
+    border-top-color: #151c21;
+    background: #151c21;
+    color: #ccc;
+}
+.buttonmise:active {
+    border-top-color: #164869;
+    background: #164869;
+}
+
+
+.labelName{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -47px;
+    color: whitesmoke;
+}
+
+.textbox {
+    background: whitesmoke;
+    color: black;
+    width: 215px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 #ccc inset;
+    text-align : center;
+    Margin-left :30px;
+    Margin-Top : 30px;
+}
+.textbox2 {
+    background: whitesmoke;
+    color: black;
+    width: 85px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 #ccc inset;
+    text-align : center;
+    margin-left: 20%;
+}
+
+.AjoutMembres{
+    Width : 310px;
+    Margin-left : 150px;
+    border:1px solid black ;
+    background: rgba(180, 180, 180, .73);
+    Margin-top : 150px;
+    position: absolute;
+}
+
+.ModifMembres{
+    Width : 310px;
+    Margin-Left : 600px;
+    border:1px solid black ;
+    background: rgba(180, 180, 180, .73);
+    Margin-top : 150px;
+    position: absolute;
+}
+
+.SupMembres{
+    Width : 310px;
+    Margin-Left : 1050px;
+    border:1px solid black ;
+    background: rgba(180, 180, 180, .73);
+    Margin-top : 150px;
+}
+
+
+
+.flatTable {
+    width: 100%;
+    min-width: 500px;
+    border-collapse: collapse;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+tr{
+    height:50px;
+    background: #949AA4;
+    border-bottom:rgba(0,0,0,.05) 2px solid;
+    border-bottom:rgba(0,0,0,.05) 2px solid;
+}
+
+td{
+    box-sizing:border-box;
+    padding-left:30px;
+
+}
+
+.titleTr{
+    height:70px;
+    color:#f6f3f7;
+    background:#3C4758;
+    border:0px solid;
+}
+
+
+
+
+
+.headingTr{
+    height:30px;
+    background:#6F7887;
+    color:#f6f3f7;
+    font-size:12pt;
+    border:0px solid;
+}
+
+.titleTd{
+    width : 400px;
+    color:whitesmoke;
+    font-size: 24px;
+
+}
+
+
+
+
+
+.title{
+    width:100%;
+    height:70px;
+    padding-top:20px;
+    padding-left:20px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,.1);
+}
+
+.open{
+    right:0;
+    width:400px !important;
+}
+
+.settingsIcons{
+    position:absolute;
+    top:0;
+    right:0;
+    width:0;
+
+    overflow:hidden;
+
+}
+
+.display{
+
+    width:300px;
+}
+
+.settingsIcon{
+    float:right;
+    background:#418a95;
+    color:#f6f3f7;
+    height:50px;
+    width:80px;
+    padding-top:15px;
+    box-sizing:border-box;
+    text-align:center;
+    overflow:hidden;
+    transition:width 1s;
+}
+
+.settingsIcon:hover{
+    background:#418a95 - #222;
+}
+
+
+
+
+.openIcon{
+    width:80px;
+}
+

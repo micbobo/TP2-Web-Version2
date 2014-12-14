@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/PagePrincipale.css">
+</head>
+
+<body>
+<div class="background">
+    <h1 class="HeaderTitle"> Miser sur des équipes </h1>
+</div>
+
+        <table Class="flatTable"><tr class="titleTr"><td class="titleTd"> Parties </td><td></td><td></td>
+
+        <td>
+            <form action="/TP2-Web/index.php/VoirParties/AcheterJetons" method="post">
+                <input class="textbox2" type="number" name="txtNbJetons">
+                <input class="button3" type="submit" name="btnAcheterJeton" value="Acheter jetons">
+            </form>
+        </td>
+        <td>
+            <form action="/TP2-Web/index.php/VoirParties/Deconnection" method="post">
+                <input class="button3" type="submit" name="btnDeconnection" value="Déconnection">
+            </form>
+        </td></tr></table>
+        <form action="/TP2-Web/index.php/VoirParties/Miser" method="post">
+            <label class="labelName">Type de mise</label>
+            <select class = "combobox2" name = 'cmbTypeMise'>
+                <option value="0">Points totaux</option>
+                <option value="1">Différence de points</option>
+                <option value="2">PCT de Gain</option>
+            </select></td>
+        <table Class="flatTable"><tr class="headingTr"><td>NomHote</td><td>NomVisiteur</td><td>PointsHote</td><td>PointsVisiteurs</td><td>Date</td><td>Placer une mise</td></tr>
+        __Parties__
+        </table>
+    </form>
+</body>
+
+</html>
